@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, ThemeProvider wrapper, defining routes for all pages including the new admin dashboard with shared layout.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including tracking, delivery requests, testimonials, admin authorization, user profiles, and the new tracking number request mutations (create and fetch) with proper query invalidation.",
+  "frontend/src/components/Header.tsx": "Sticky navigation header with logo, desktop/mobile menu, active route highlighting, Internet Identity login/logout functionality, and conditional admin link visibility based on authentication status.",
+  "frontend/src/components/Footer.tsx": "Footer component with company info, quick links, social media icons (Facebook, Instagram, WhatsApp), and caffeine.ai attribution.",
+  "frontend/src/pages/HomePage.tsx": "Homepage with hero section, tracking search box, features grid, image gallery, testimonials (using public endpoint), FAQ section, and live chat widget.",
+  "frontend/src/pages/AboutPage.tsx": "About page showcasing company mission, core values, statistics, and reasons to choose SwiftDrop with team imagery.",
+  "frontend/src/pages/ServicesPage.tsx": "Services page displaying all five delivery service types with icons, descriptions, features, and call-to-action section.",
+  "frontend/src/pages/TrackingPage.tsx": "Package tracking page with search functionality, detailed tracking timeline, status history, and real-time delivery progress visualization.",
+  "frontend/src/pages/ContactPage.tsx": "Contact and booking page with delivery request form, contact information cards, and embedded Google Maps location.",
+  "frontend/src/components/TestimonialsSection.tsx": "Reusable testimonials section component displaying customer reviews with ratings and profile images.",
+  "frontend/src/components/FAQSection.tsx": "Accordion-based FAQ section answering common questions about delivery times, pricing, restrictions, and corporate accounts.",
+  "frontend/src/components/LiveChatWidget.tsx": "Floating chat widget button with expandable chat window showing support contact information.",
+  "frontend/src/index.css": "Global styles with OKLCH color system customized for blue (#0055ff) primary color theme matching SwiftDrop brand requirements.",
+  "frontend/src/pages/AdminDashboard.tsx": "Admin-only dashboard with four tabs - Requests (with generate tracking number button), Manage Deliveries (with real-time status display and update functionality), Tracking Number Requests (with form to create new requests and table to view all existing requests), and Testimonials, all with proper authentication checks, loading states, and TypeScript interface definitions for component props."
+}
